@@ -45,3 +45,7 @@ or individually from:
 pip install plantcv numpy==1.26.4 kornia transformers notebook ipywidgets opencv-python timm scipy \
 scikit-image tqdm prettytable huggingface_hub
 ```
+
+### 3. 필요에 따라 img_src 폴더의 압축파일 해제
+
+- './img_src/CF/cf_samples_for_additional_cal' 폴더에는 노트북 예시를 위한 이미지가 압축파일로 있습니다.
