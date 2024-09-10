@@ -1,0 +1,26 @@
+Observation,Trait,Value,Method,Scale,Datatype,Label
+default,branch_pts,"[[55, 234], [57, 157], [55, 133], [56, 127], [45, 110], [33, 88], [67, 78], [64, 65]]",plantcv.plantcv.morphology.find_branch_pts,pixels,<class 'list'>,"[0, 1, 2, 3, 4, 5, 6, 7]"
+default,tips,"[[46, 108], [42, 10]]",plantcv.plantcv.morphology.find_tips,pixels,<class 'list'>,"[0, 1]"
+default,segment_area,"[2739, 1292, 210, 408, 453, 1237, 991]",plantcv.plantcv.morphology.fill_segments,pixels,<class 'list'>,"[0, 1, 2, 3, 4, 5, 6]"
+default,segment_path_length,"[54.541630148887634, 44.12741661071777, 15.985281229019165, 25.156854152679443, 35.106601536273956, 62.92030984163284, 99.98528122901917]",plantcv.plantcv.morphology.segment_path_length,pixels,<class 'list'>,"[0, 1, 2, 3, 4, 5, 6]"
+default,segment_curvature,"[1.1990791978897848, 1.1548672748077227, 1.049485128220994, 1.0339403366222681, 1.0875642683710864, 1.0853169766340303, 1.0194091712684978]",plantcv.plantcv.morphology.segment_curvature,none,<class 'list'>,"[0, 1, 2, 3, 4, 5, 6]"
+backend,segment_eu_length,"[45.48626166217664, 38.2099463490856, 15.231546211727817, 24.331050121192877, 32.28002478313795, 57.97413216254298, 98.08159868191383]",plantcv.plantcv.morphology.segment_euclidean_length,pixels,<class 'list'>,"[0, 1, 2, 3, 4, 5, 6]"
+backend,segment_path_length,"[54.541630148887634, 44.12741661071777, 15.985281229019165, 25.156854152679443, 35.106601536273956, 62.92030984163284, 99.98528122901917]",plantcv.plantcv.morphology.segment_path_length,pixels,<class 'list'>,"[0, 1, 2, 3, 4, 5, 6]"
+default_1,in_bounds,False,plantcv.plantcv.within_frame,none,<class 'bool'>,none
+default_1,area,7343.0,plantcv.plantcv.analyze.size,pixels,<class 'int'>,pixels
+default_1,convex_hull_area,15480.0,plantcv.plantcv.analyze.size,pixels,<class 'int'>,pixels
+default_1,solidity,0.47435400516795867,plantcv.plantcv.analyze.size,none,<class 'float'>,none
+default_1,perimeter,1712.028561115265,plantcv.plantcv.analyze.size,pixels,<class 'int'>,pixels
+default_1,width,103,plantcv.plantcv.analyze.size,pixels,<class 'int'>,pixels
+default_1,height,234,plantcv.plantcv.analyze.size,pixels,<class 'int'>,pixels
+default_1,longest_path,664,plantcv.plantcv.analyze.size,pixels,<class 'int'>,pixels
+default_1,center_of_mass_x,59.25112351899769,plantcv.plantcv.analyze.size,none,<class 'tuple'>,x
+default_1,center_of_mass_y,120.6485087838758,plantcv.plantcv.analyze.size,none,<class 'tuple'>,y
+default_1,convex_hull_vertices,12,plantcv.plantcv.analyze.size,none,<class 'int'>,none
+default_1,object_in_frame,False,plantcv.plantcv.analyze.size,none,<class 'bool'>,none
+default_1,ellipse_center_x,57.61935043334961,plantcv.plantcv.analyze.size,none,<class 'tuple'>,x
+default_1,ellipse_center_y,117.97139739990234,plantcv.plantcv.analyze.size,none,<class 'tuple'>,y
+default_1,ellipse_major_axis,199.45101928710938,plantcv.plantcv.analyze.size,pixels,<class 'int'>,pixels
+default_1,ellipse_minor_axis,72.1709213256836,plantcv.plantcv.analyze.size,pixels,<class 'int'>,pixels
+default_1,ellipse_angle,4.027881145477295,plantcv.plantcv.analyze.size,degrees,<class 'float'>,degrees
+default_1,ellipse_eccentricity,0.9322371681848104,plantcv.plantcv.analyze.size,none,<class 'float'>,none
